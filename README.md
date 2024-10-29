@@ -1,5 +1,6 @@
 # Customer Churn Prediction Pipeline
-![image]([https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.meetrecord.com%2Fblog%2Ftop-churn-indicators&psig=AOvVaw3xoQv7od98Sqh6Qy6zFxOR&ust=1730303023296000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJDKpqH3s4kDFQAAAAAdAAAAABAE](https://cdn.prod.website-files.com/666fdec617b81d256ca8f1e5/666fdec617b81d256ca8f7ad_6-Ways-CRM-Stop-Customer-Churn.png))
+![Customer Churn](https://cdn.prod.website-files.com/666fdec617b81d256ca8f1e5/666fdec617b81d256ca8f7ad_6-Ways-CRM-Stop-Customer-Churn.png)
+
 
 This project is an end-to-end pipeline for predicting customer churn using machine learning. It includes loading, cleaning, and balancing data, training multiple models, hyperparameter tuning, and deploying the model for inference through a Streamlit app. Additionally, the model generates personalized emails to retain customers based on their churn probability.
 
