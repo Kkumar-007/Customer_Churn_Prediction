@@ -8,7 +8,7 @@ import utils as ut
 import xgboost
 
 client = OpenAI(base_url="https://api.groq.com/openai/v1",
-                api_key="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")
+                api_key="************************************")
 
 
 def load_model(filename):
