@@ -5,27 +5,27 @@ This project is an end-to-end pipeline for predicting customer churn using machi
 Customer churn prediction helps identify customers likely to leave a service, enabling targeted retention efforts. This project specifically considers that retaining a customer is more cost-effective than acquiring a new one, and the prediction model focuses on accuracy in identifying potential churners. The pipeline is built with a focus on high recall for reliable identification.
 
 ## Features
-Data Preparation: Loading and cleaning the dataset, with handling of skewed data using SMOTE (Synthetic Minority Oversampling Technique) to achieve balanced classes.
-Model Training: Training five different machine learning models:
-Random Forest
-XGBoost
-K-Nearest Neighbors (KNN)
-Support Vector Machines (SVM)
-Decision Tree
-Ensemble Voting: A majority voting mechanism is used to combine the results from three models and determine an average churn probability.
-Key Factor Analysis: Trend analysis for customer churn and identification of influential factors to improve interpretability.
-Evaluation Metrics: Recall is used as the primary evaluation metric, given that capturing potential churn is critical to this business application.
-Visualization: Churn probabilities and contributing factors are presented graphically in the Streamlit web app for user-friendly insights.
-Customer Retention Strategy: Llama-3.1 7B model generates custom emails offering incentives to high-risk customers to improve retention rates.
+1. Data Preparation: Loading and cleaning the dataset, with handling of skewed data using SMOTE (Synthetic Minority Oversampling Technique) to achieve balanced classes.
+2. Model Training: Training five different machine learning models:
+     Random Forest
+     XGBoost
+     K-Nearest Neighbors (KNN)
+     Support Vector Machines (SVM)
+     Decision Tree
+3. Ensemble Voting: A majority voting mechanism is used to combine the results from three models and determine an average churn probability.
+4. Key Factor Analysis: Trend analysis for customer churn and identification of influential factors to improve interpretability.
+5. Evaluation Metrics: Recall is used as the primary evaluation metric, given that capturing potential churn is critical to this business application.
+6. Visualization: Churn probabilities and contributing factors are presented graphically in the Streamlit web app for user-friendly insights.
+7. Customer Retention Strategy: Llama-3.1 7B model generates custom emails offering incentives to high-risk customers to improve retention rates.
 
 ## Project Pipeline
-Data Loading: Import the customer dataset and perform initial exploration.
-Data Cleaning and Preprocessing: Handle missing values, outliers, and normalize/standardize features as needed.
-Data Balancing: Apply SMOTE to balance the classes due to the high imbalance in churn and non-churn classes.
-Feature Selection: Identify key features that most influence customer churn for focused insights and interpretability.
-Model Training: Train and optimize five different machine learning models.
-Hyperparameter Tuning: Tune model parameters using techniques like grid search to enhance model performance.
-Model Evaluation: Evaluate the models based on recall to prioritize capturing potential churners accurately.
-Ensemble Voting: Calculate an average churn probability using an ensemble voting approach from three selected models.
-Deployment: Serve the model through a Streamlit app, allowing for real-time churn probability predictions and visualizations.
-Customer Retention Email: Generate a personalized email for customers at high churn risk, offering tailored incentives to encourage retention.
+1. Data Loading: Import the customer dataset and perform initial exploration.
+2. Data Cleaning and Preprocessing: Handle missing values, outliers, and normalize/standardize features as needed.
+3. Data Balancing: Apply SMOTE to balance the classes due to the high imbalance in churn and non-churn classes.
+4. Feature Selection: Identify key features that most influence customer churn for focused insights and interpretability.
+5. Model Training: Train and optimize five different machine learning models.
+6. Hyperparameter Tuning: Tune model parameters using techniques like grid search to enhance model performance.
+7. Model Evaluation: Evaluate the models based on recall to prioritize capturing potential churners accurately.
+8. Ensemble Voting: Calculate an average churn probability using an ensemble voting approach from three selected models.
+9. Deployment: Serve the model through a Streamlit app, allowing for real-time churn probability predictions and visualizations.
+10. Customer Retention Email: Generate a personalized email for customers at high churn risk, offering tailored incentives to encourage retention.
