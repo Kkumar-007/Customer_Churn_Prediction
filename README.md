@@ -7,16 +7,16 @@ Customer churn prediction helps identify customers likely to leave a service, en
 ## Features
 1. Data Preparation: Loading and cleaning the dataset, with handling of skewed data using SMOTE (Synthetic Minority Oversampling Technique) to achieve balanced classes.
 2. Model Training: Training five different machine learning models:
-     Random Forest
-     XGBoost
-     K-Nearest Neighbors (KNN)
-     Support Vector Machines (SVM)
-     Decision Tree
-3. Ensemble Voting: A majority voting mechanism is used to combine the results from three models and determine an average churn probability.
-4. Key Factor Analysis: Trend analysis for customer churn and identification of influential factors to improve interpretability.
-5. Evaluation Metrics: Recall is used as the primary evaluation metric, given that capturing potential churn is critical to this business application.
-6. Visualization: Churn probabilities and contributing factors are presented graphically in the Streamlit web app for user-friendly insights.
-7. Customer Retention Strategy: Llama-3.1 7B model generates custom emails offering incentives to high-risk customers to improve retention rates.
+        Random Forest
+        XGBoost
+        K-Nearest Neighbors (KNN)
+        Support Vector Machines (SVM)
+        Decision Tree
+4. Ensemble Voting: A majority voting mechanism is used to combine the results from three models and determine an average churn probability.
+5. Key Factor Analysis: Trend analysis for customer churn and identification of influential factors to improve interpretability.
+6. Evaluation Metrics: Recall is used as the primary evaluation metric, given that capturing potential churn is critical to this business application.
+7. Visualization: Churn probabilities and contributing factors are presented graphically in the Streamlit web app for user-friendly insights.
+8. Customer Retention Strategy: Llama-3.1 7B model generates custom emails offering incentives to high-risk customers to improve retention rates.
 
 ## Project Pipeline
 1. Data Loading: Import the customer dataset and perform initial exploration.
